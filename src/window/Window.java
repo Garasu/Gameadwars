@@ -1,6 +1,6 @@
-package window;
+package src.window;
 
-import Spielfeld.Spielfeld;
+import src.Spielfeld.Spielfeld;
 
 import java.awt.Dimension;
 import java.awt.Graphics;

@@ -1,5 +1,5 @@
-package game;
-import window.Window;
+package src.game;
+import src.window.Window;
 public class Main {
 	public static int height = 600;
 	public static int width = 800;

@@ -1,10 +1,10 @@
-package Spielfeld;
+package src.Spielfeld;
 
 import java.awt.Graphics;
 
 import javax.swing.JLabel;
-import window.Window;
-import game.Main;
+import src.window.Window;
+import src.game.Main;
 public class Spielfeld extends JLabel{
 	private String[] tiles = {"Wasser", "Land", "Berg"};
 	private String[][] landscape;
