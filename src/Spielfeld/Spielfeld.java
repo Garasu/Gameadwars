@@ -12,6 +12,7 @@ public class Spielfeld extends JLabel{
 	private int size = 50;
 	private int height = 600;
 	private int width = 800;
+	private PlayerOne player;
 	public Spielfeld(){
 		landscape = new String[height / size][width / size];
 		for(int i = 0; i < landscape.length ; i++){
@@ -19,9 +20,7 @@ public class Spielfeld extends JLabel{
 				landscape[i][p] = tiles[(int) (Math.random() * 3)];
 			}
 		}
-		
-		
-		
+		player = new PlayerOne();
 	}
 	
 	public void update(){
@@ -52,7 +51,8 @@ public class Spielfeld extends JLabel{
 				}
 			}
 		}
+		Player player = new Player();
+		player.draw();e
 	}
-	
-	
 }
+
